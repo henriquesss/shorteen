@@ -1,8 +1,8 @@
 {
   "version": "5",
   "dialect": "mysql",
-  "id": "f575f5d6-ad3d-4667-9630-05617dda14ee",
-  "prevId": "00000000-0000-0000-0000-000000000000",
+  "id": "e4aeeaae-ef2b-4b83-9343-aa7c5b212265",
+  "prevId": "f575f5d6-ad3d-4667-9630-05617dda14ee",
   "tables": {
     "urls_table": {
       "name": "urls_table",
@@ -34,7 +34,7 @@
           "primaryKey": false,
           "notNull": true,
           "autoincrement": false,
-          "default": "'2025-05-20'"
+          "default": "'2025-05-21'"
         },
         "expire_at": {
           "name": "expire_at",

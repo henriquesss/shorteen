@@ -1,0 +1,1 @@
+ALTER TABLE `urls_table` MODIFY COLUMN `created_at` date NOT NULL DEFAULT '2025-05-21';

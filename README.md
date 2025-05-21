@@ -1,6 +1,6 @@
-# short url project
+# Shorteen
 
-Soon...
+A url shortener for generation z && alpha
 
 ## Project setup
 
@@ -14,7 +14,7 @@ Local mysql with Docker
 ```bash
 docker pull mysql
 
-docker run --name shorturl-mysql -e MYSQL_ROOT_PASSWORD=password -d -p 3306:3306 mysql
+docker run --name shorteen-mysql -e MYSQL_ROOT_PASSWORD=password -d -p 3306:3306 mysql
 ```
 
 then, use this address on your enviroment variable
