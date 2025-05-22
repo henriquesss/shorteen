@@ -1,4 +1,4 @@
-import { Controller, Get, Param } from '@nestjs/common';
+import { Controller, Get, Post, Body } from '@nestjs/common';
 import { UrlService } from './url.service';
 import { Url } from 'src/types/url';
 
@@ -14,5 +14,10 @@ export class UrlController {
     @Get('active')
     getActiveUrls(): Promise<Url[]> {
         return this.appService.getActiveUrls();
+    }
+
+    @Post()
+    createUrl(@Body() payload: { original_url: string }): Promise<Url> {
+        return this.appService.createUrl(payload);
     }
 }
